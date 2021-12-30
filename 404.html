@@ -30,7 +30,7 @@
     .toc {
       background: #f8f9fa;
       width: fit-content;
-      padding: 30px;
+      padding: 15px 23px 15px 23px;
       border: 1px solid #a2a9b1;
     }
 
@@ -60,6 +60,38 @@
     figcaption {
       font-style: italic;
       max-width: 200px;
+    }
+
+    table {
+      max-height: 30em;
+      overflow: scroll;
+      display: block;
+      text-align: center;
+      width: fit-content;
+      /* border: 1px solid black; */
+    }
+
+    table th,
+    table td {
+      /* border: 1px solid black; */
+      padding: 5px;
+    }
+
+    aside table,
+    aside th,
+    aside td {
+      border: none;
+    }
+
+    #Gallery + p {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    #Gallery + p > p {
+      display: inline-block;
+      margin: 10px;
     }
 
     cite {
