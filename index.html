@@ -69,6 +69,11 @@
       max-width: 200px;
     }
 
+    h3,
+    h4 {
+      clear: both;
+    }
+
     table {
       max-height: 30em;
       overflow: scroll;
@@ -94,15 +99,18 @@
       border: none;
     }
 
-    #Gallery + p {
+    .quote-many dd {
+      margin-left: 0;
+    }
+
+    .gallery img {
+      float: none;
+      margin: 10px;
+    }
+    .gallery {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-    }
-
-    #Gallery + p > p {
-      display: inline-block;
-      margin: 10px;
     }
 
     cite {
